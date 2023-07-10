@@ -1,5 +1,4 @@
-FROM debian:bullseye
-MAINTAINER Adrian Dvergsdal [atmoz.net]
+FROM debian:bullseye-slim
 
 # Steps done in one RUN layer:
 # - Install packages
